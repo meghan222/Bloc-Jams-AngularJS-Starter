@@ -12,7 +12,7 @@
         return {
             templateUrl: '/templates/directives/seek_bar.html',
             replace: true,
-            restric: 'E',
+            restrict: 'E',
             scope: {
                 onChange: '&'
             },
